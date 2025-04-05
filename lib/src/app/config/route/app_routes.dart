@@ -6,7 +6,7 @@ import 'package:hmusic/src/features/home/presentation/screens/home_screen.dart';
 class AppRoute {
   static final router = GoRouter(
     routes: [
-      GoRoute(path: RouteNames.home, builder: (context, state) => HomeScreen()),
+      GoRoute(path: RouteNames.home, builder: (context, state) => const HomeScreen()),
     ],
   );
 }
