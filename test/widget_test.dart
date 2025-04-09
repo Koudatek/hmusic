@@ -8,7 +8,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hmusic/main.dart';
 import 'package:hmusic/src/app/hmusic_app.dart';
 
 void main() {
