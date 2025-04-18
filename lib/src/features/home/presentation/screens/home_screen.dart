@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -10,6 +11,16 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
+          child: Text(
+            "HmusicApp",
+            style:
+                GoogleFonts.aBeeZee(fontSize: 30, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+    );
   }
 }
